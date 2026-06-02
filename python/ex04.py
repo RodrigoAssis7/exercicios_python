@@ -1,3 +1,4 @@
+#Faça um programa que leia algo pelo teclado e mostre o seu tipo primitivo
 tipo = input("digite um numero inteiro: ")
 print(type(tipo))
 print ("So tem espaços? :", tipo.isspace())

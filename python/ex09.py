@@ -1,3 +1,4 @@
+#Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada
 num = int(input("Digite um numero para ver a tabuada: "))
 um = num * 1
 dois =  num * 2
