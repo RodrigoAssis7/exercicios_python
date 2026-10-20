@@ -1,3 +1,3 @@
 # Crie um script que leia o nome de uma pessoa e mostre uma mensagem de boas vindas
-nome = input("Digite seu nome: ")
-print("Praser em te conhecer {}!".format(nome))
+Nome = input('digite seu nome: ')
+print('Olá {}, seja bem vindo ao nosso site!!! '.format(Nome))
