@@ -1,12 +1,13 @@
+#Faça um programa ue leia um angulo qualquer
+# e  moster na tela e moste o valor do seno coseno e tangente
 import math
 
-angulo = float(input("Digite o valor do angulo: "))
-red = math.radians(angulo)
+angulo = float(input('Digite o ângulo: '))
 
-seno = math.sin(red)
-cosseno = math.cos(red)
-tangente = math.tan(red)
+seno = math.sin(math.radians(angulo))
+cosseno = math.cos(math.radians(angulo))
+tangente = math.tan(math.radians(angulo))
 
-print('seno do angulo {:.3f}'.format(seno))
-print('cosseno do angulo {:.3f}'.format(cosseno))
-print('tangente do angulo {:.3f}'.format(tangente))
+print('Seno:', seno)
+print('Cosseno:', cosseno)
+print('Tangente:', tangente)
