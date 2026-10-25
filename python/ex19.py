@@ -1,3 +1,4 @@
+#Sorteio de nome de um aluno para apagar o quadro
 import random
 
 nome1 = input('Digite o primeiro nome: ')
